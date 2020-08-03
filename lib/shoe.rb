@@ -8,9 +8,7 @@ class Shoe
   def initialize(brand)
     @brnd = brand 
     BRANDS.each do |brand|
-      if BRANDS.find? == brand 
-      
-    else 
+      if BRANDS == brand 
      BRANDS << brand 
   end
 end
