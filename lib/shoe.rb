@@ -7,7 +7,7 @@ class Shoe
   
   def initialize(brand)
     @brnd = brand 
-    BRANDS.map do |brand|
+   RANDS.map do |brand|
       if BRANDS != brand 
         BRANDS << brand 
   end
