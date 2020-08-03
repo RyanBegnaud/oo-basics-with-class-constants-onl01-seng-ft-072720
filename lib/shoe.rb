@@ -9,7 +9,9 @@ class Shoe
     @brnd = brand 
     BRANDS.each do |brand|
       if BRANDS == brand 
-     BRANDS << brand 
+     
+     else 
+      BRANDS << brand 
   end
 end
  
