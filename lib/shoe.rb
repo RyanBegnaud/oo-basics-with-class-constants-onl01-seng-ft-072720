@@ -7,7 +7,10 @@ class Shoe
   
   def initialize(brand)
     @brnd = brand 
-    if brand.uniq 
+    BRANDS.each do |brand|
+      if BRANDS.find? == brand 
+      
+    else 
      BRANDS << brand 
   end
  
