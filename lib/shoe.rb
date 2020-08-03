@@ -7,9 +7,11 @@ class Shoe
   
   def initialize(brand)
     @brnd = brand 
-   RANDS.map do |brand|
-      if BRANDS != brand 
-        BRANDS << brand 
+    BRANDS << brand 
+    if BRANDS.includes?(brand)
+      BRANDS 
+    else 
+      BRANDS << brand 
   end
 end
 end
